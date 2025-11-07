@@ -1,0 +1,5 @@
+cloudflared
+curl
+jq
+figlet
+lolcat

