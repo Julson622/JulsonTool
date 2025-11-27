@@ -59,6 +59,7 @@ instalar o lolcat
 ```bash
 pkg install lolcat
 termux-setup-storage
+```
 Clonar o git
 ```bash
 git clone https://github.com/Julson622/JulsonTool.git
