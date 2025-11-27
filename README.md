@@ -1,3 +1,6 @@
+📜 README.md
+
+`markdown
 <h1 align="center">🔧 JulsonTool</h1>
 
 <p align="center">
@@ -9,16 +12,16 @@
 
 ---
 
-## 🛠️ Sobre o Projeto
+🛠️ Sobre o Projeto
 
-**JulsonTool** é um utilitário hacker educativo para **Termux**, criado por **Julson Julião Paiva (Julson622 no GitHub)**.  
-O projeto reúne diversas ferramentas em um menu interativo para aprendizado de **pentest** e **segurança digital**.
+JulsonTool é um utilitário hacker educativo para Termux, criado por Julson Julião Paiva (Julson622 no GitHub).  
+O projeto reúne diversas ferramentas em um menu interativo para aprendizado de pentest e segurança digital.
 
-> Este projeto é **open-source** e está em constante evolução. Use para aprender, nunca para fins ilegais. ⚠️
+> Este projeto é open-source e está em constante evolução. Use para aprender, nunca para fins ilegais. ⚠️
 
 ---
 
-## 📦 Funcionalidades
+📦 Funcionalidades
 
 - [01] Informações do número de celular  
 - [02] Informações do IP  
@@ -33,17 +36,17 @@ O projeto reúne diversas ferramentas em um menu interativo para aprendizado de 
 
 ---
 
-## ⚙️ Instalação
+⚙️ Instalação
 
-### Pré-requisitos
+Pré-requisitos
 
-- [Termux](https://f-droid.org/en/packages/com.termux/)  
+- Termux  
 - Python 3+  
 - Git  
 
-### Passo a passo (Termux)
+Passo a passo (Termux)
 
-```bash
+`bash
 pkg update && pkg upgrade -y
 pkg install git python python3 bash figlet ruby -y
 gem install lolcat
@@ -55,3 +58,36 @@ cd JulsonTool
 chmod +x installer/install.sh
 ./installer/install.sh
 bash julson.sh
+`
+
+---
+
+📢 Canal oficial no WhatsApp
+
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029Vb6mQ1r9mrGlaAOnFX2c" target="_blank">
+    <img src="https://img.shields.io/badge/Entrar%20no%20Canal-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Canal WhatsApp">
+  </a>
+</p>
+
+---
+
+⚠️ Aviso
+
+Este projeto é educativo.  
+Não utilize as ferramentas para fins ilegais ou contra sistemas sem permissão.  
+O objetivo é aprender conceitos de segurança digital e pentest.
+
+---
+
+<p align="center"><i>Feito com 💻 por Julson Julião Paiva (Julson622 no GitHub)</i></p>
+`
+
+---
+
+✅ Esse README já vem com:
+- Badges de versão, linguagem, status e licença.  
+- Instalação rápida com botão de copiar.  
+- Botão estilizado do canal do WhatsApp centralizado.  
+- Aviso educativo e assinatura.  
+
