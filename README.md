@@ -58,6 +58,7 @@ cd JulsonTool
 chmod +x installer/install.sh
 ./installer/install.sh
 bash julson.sh
+```
 
 
 ---
