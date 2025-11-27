@@ -51,17 +51,32 @@ instalar dependências ↓↓↓↓
 ```bash
 pkg update && pkg upgrade -y
 ```
-instalar o python3 ↓↓↓
+instalar o python3, figlet ruby ↓↓↓
 ```bash
 pkg install git python python3 bash figlet ruby -y
-gem install lolcat
+```
+instalar o lolcat
+```bash
+pkg install lolcat
 termux-setup-storage
-
-cd /storage/emulated/0/bot
+Clonar o git
+```bash
 git clone https://github.com/Julson622/JulsonTool.git
+```
+entrar na farramenta
+```bash
 cd JulsonTool
+```
+dar a permissão a requisições
+```bash
 chmod +x installer/install.sh
+``` 
+instalar
+```bash 
 ./installer/install.sh
+```
+Usar a farramenta
+```bash
 bash julson.sh
 ```
 
