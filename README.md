@@ -46,8 +46,13 @@ Pré-requisitos
 
 Passo a passo (Termux)
 
+instalar dependências ↓↓↓↓
+
 ```bash
 pkg update && pkg upgrade -y
+```
+instalar o python3 ↓↓↓
+```bash
 pkg install git python python3 bash figlet ruby -y
 gem install lolcat
 termux-setup-storage
