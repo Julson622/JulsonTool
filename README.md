@@ -46,7 +46,7 @@ Pré-requisitos
 
 Passo a passo (Termux)
 
-`bash
+```bash
 pkg update && pkg upgrade -y
 pkg install git python python3 bash figlet ruby -y
 gem install lolcat
